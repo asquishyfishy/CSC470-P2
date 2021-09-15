@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CSC470_P2
 {
-    public partial class Form1 : Form
+    public partial class FormSeeFish : Form
     {
-        public Form1(string selectedFish)
+        public FormSeeFish(string selectedFish)
         {
             InitializeComponent();
             _Fish = selectedFish;
