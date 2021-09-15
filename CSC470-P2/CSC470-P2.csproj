@@ -65,6 +65,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+=======
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
       <Generator>ResXFileCodeGenerator</Generator>
@@ -72,6 +76,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormSeeFish.resx">
       <DependentUpon>FormSeeFish.cs</DependentUpon>
+>>>>>>> 8c9bcee7e9fd245616c082eb5390b14df9bbbe68
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

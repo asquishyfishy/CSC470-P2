@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ﻿
 namespace CSC470_P2
 {
@@ -55,6 +56,10 @@ namespace CSC470_P2
             this.FishLabel.Size = new System.Drawing.Size(103, 13);
             this.FishLabel.TabIndex = 1;
             this.FishLabel.Text = "Choose a fish to see";
+<<<<<<< HEAD
+=======
+            this.FishLabel.Click += new System.EventHandler(this.label1_Click);
+>>>>>>> master
             // 
             // crappieButton
             // 
@@ -66,6 +71,10 @@ namespace CSC470_P2
             this.crappieButton.TabStop = true;
             this.crappieButton.Text = "Crappie";
             this.crappieButton.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
+=======
+            this.crappieButton.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+>>>>>>> master
             // 
             // perchButton
             // 
@@ -88,6 +97,10 @@ namespace CSC470_P2
             this.walleyeButton.TabStop = true;
             this.walleyeButton.Text = "Walleye";
             this.walleyeButton.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
+=======
+            this.walleyeButton.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
+>>>>>>> master
             // 
             // FormMain
             // 
@@ -115,3 +128,46 @@ namespace CSC470_P2
     }
 }
 
+=======
+﻿
+namespace CSC470_P2
+{
+    partial class FormMain
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "Form1";
+        }
+
+        #endregion
+    }
+}
+
+>>>>>>> Stashed changes
