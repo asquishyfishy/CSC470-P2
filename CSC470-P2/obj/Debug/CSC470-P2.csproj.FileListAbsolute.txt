@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+C:\Users\Tim\source\repos\CSC470-P2\CSC470-P2\bin\Debug\CSC470-P2.exe.config
+C:\Users\Tim\source\repos\CSC470-P2\CSC470-P2\bin\Debug\CSC470-P2.exe
+C:\Users\Tim\source\repos\CSC470-P2\CSC470-P2\bin\Debug\CSC470-P2.pdb
+C:\Users\Tim\source\repos\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.csproj.AssemblyReference.cache
+C:\Users\Tim\source\repos\CSC470-P2\CSC470-P2\obj\Debug\CSC470_P2.FormMain.resources
+C:\Users\Tim\source\repos\CSC470-P2\CSC470-P2\obj\Debug\CSC470_P2.Properties.Resources.resources
+C:\Users\Tim\source\repos\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.csproj.GenerateResource.cache
+C:\Users\Tim\source\repos\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.csproj.CoreCompileInputs.cache
+C:\Users\Tim\source\repos\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.exe
+C:\Users\Tim\source\repos\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.pdb
+=======
 C:\Users\DSU Student\Source\Repos\CSC470-P2\CSC470-P2\bin\Debug\CSC470-P2.exe.config
 C:\Users\DSU Student\Source\Repos\CSC470-P2\CSC470-P2\bin\Debug\CSC470-P2.exe
 C:\Users\DSU Student\Source\Repos\CSC470-P2\CSC470-P2\bin\Debug\CSC470-P2.pdb
@@ -7,3 +19,4 @@ C:\Users\DSU Student\Source\Repos\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.csproj
 C:\Users\DSU Student\Source\Repos\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.csproj.CoreCompileInputs.cache
 C:\Users\DSU Student\Source\Repos\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.exe
 C:\Users\DSU Student\Source\Repos\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.pdb
+>>>>>>> 8c9bcee7e9fd245616c082eb5390b14df9bbbe68
