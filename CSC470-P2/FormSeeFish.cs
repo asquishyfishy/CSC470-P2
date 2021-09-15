@@ -10,11 +10,47 @@ using System.Windows.Forms;
 
 namespace CSC470_P2
 {
-    public partial class Form1 : Form
+    public partial class FormSeeFish : Form
     {
-        public Form1()
+        public FormSeeFish(string selectedFish)
         {
             InitializeComponent();
+            _Fish = selectedFish;
+        }
+        private void LoadPictures()
+        {
+            //pictures get loaded
+            switch (_Fish)
+            {
+                case Fish.Crappie:
+                    pictureBox1.Image = Properties.Resources.Crappie;
+                    break;
+                case Fish.Perch:
+                    pictureBox1.Image = Properties.Resources.Perch;
+                    break;
+                case Fish.Walleye:
+                    pictureBox1.Image = Properties.Resources.Walleye;
+                    break;
+            }
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
