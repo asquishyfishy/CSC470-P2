@@ -12,6 +12,8 @@ namespace CSC470_P2
 {
     public partial class FormSeeFish : Form
     {
+        private string _Fish;
+
         public FormSeeFish(string selectedFish)
         {
             InitializeComponent();
@@ -22,35 +24,32 @@ namespace CSC470_P2
             //pictures get loaded
             switch (_Fish)
             {
-                case Fish.Crappie:
+                case "Crappie":
                     pictureBox1.Image = Properties.Resources.Crappie;
                     break;
-                case Fish.Perch:
+                case "Perch":
                     pictureBox1.Image = Properties.Resources.Perch;
                     break;
-                case Fish.Walleye:
+                case "Walleye":
                     pictureBox1.Image = Properties.Resources.Walleye;
                     break;
             }
         }
         private void button1_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Decision Cancelled.");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Decision is to Throw it back.");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Decision is to Keep it.");
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
 
-        }
     }
 }

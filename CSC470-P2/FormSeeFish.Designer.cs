@@ -1,7 +1,7 @@
 ﻿
 namespace CSC470_P2
 {
-    partial class Form1
+    partial class FormSeeFish
     {
         /// <summary>
         /// Required designer variable.
